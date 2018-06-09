@@ -1,7 +1,7 @@
 import { RouterModule , Routes  } from '@angular/router';
 
 import { BlogComponent } from './blog/blog.component';
-import { Blog1Component } from './blog1/blog1.component';
+import { Blog1Component } from './blogs/blog1/blog1.component';
 
 const appRoutes: Routes = [
     { path: '', component: BlogComponent },
