@@ -16,6 +16,7 @@ import { Blog5Component } from './blogs/blog5/blog5.component';
 import { Blog6Component } from './blogs/blog6/blog6.component';
 import { Blog1Component } from './blogs/blog1/blog1.component';
 import { PaginationComponent } from './pagination/pagination.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { PaginationComponent } from './pagination/pagination.component';
     Blog4Component,
     Blog5Component,
     Blog6Component,
-    PaginationComponent
+    PaginationComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
